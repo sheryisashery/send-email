@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Send Urgent Email</title>
+<meta charset="UTF-8">
+<style>
+body{font-family:Arial;text-align:center;margin-top:80px;background:#f5f5f5}
+button{
+background:#d60000;
+color:white;
+border:none;
+padding:20px 40px;
+font-size:20px;
+border-radius:8px;
+cursor:pointer
+}
+button:hover{background:#a00000}
+</style>
+</head>
+
+<body>
+
+<h1>Urgent Human Rights Appeal</h1>
+<p>Click below to open a prepared email and send it.</p>
+
+<button onclick="sendMail()">Open Email</button>
+
+<script>
+function sendMail(){
+window.location.href =
+"mailto:PASTE_EMAILS_HERE?subject=URGENT%20Executions%20and%20Detentions%20in%20Iran&body=Please%20see%20full%20letter:%20PASTE_LINK_TO_FULL_TEXT";
+}
+</script>
+
+</body>
+</html>
